@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.5.23", features = ["derive"] }
 serialport = "4.6.1"
+crossbeam = "0.8.2"
+crossbeam-channel = "0.5"
+crossterm = "0.25.0"
